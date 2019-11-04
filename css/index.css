@@ -312,20 +312,23 @@ ul{
         flex-direction: column-reverse;
         
     }
+    
     header nav{
         display:flex;
         flex-direction: column;
-        width: 80%;
-        margin: auto;
-       
+        width: 90%;
+        border-top: 1px solid;
+        margin: 3% auto;
+               
     }
     header nav a{
         border-bottom: 1px solid black;
-        width: 80%;
+        width: 90%;
         padding: 3%;
         margin: auto;
         text-align: center;
         font-size: 20px;
+        
     }
     .top-content img{
         display: none;
@@ -333,19 +336,20 @@ ul{
    .middle-content{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        width: 80%;
+        width: 90%;
         padding: 2%;
+        border-top: 2px solid black;
     
     }
     .bottom-content{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         padding: 2%;
+        border-bottom: 2px solid black;
     }
     .middle-img{
-        width: 80%;
+        width: 85%;
     }
     .features{
         width: 100%;
@@ -367,6 +371,9 @@ ul{
     .vision{
         width: 100%;
         padding: 1%;
+    }
+    .contact{
+        width: 85%;
     }
 
     }
